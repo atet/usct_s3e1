@@ -1,0 +1,162 @@
+---
+title: "Data Science"
+subtitle: "<font size='7'>Season 3, Episode 1</font>"
+author: "<font size='6'>Athit Kao, PhD</font>"
+institute: "<font size='4'>Raytheon | An RTX Business</font></br></br><font size='2'><em>DISCLAIMER: Opinions expressed within this presentation are solely the author's and do not reflect the opinions and beliefs of RTX or its affiliates.</em></font>"
+footer: "[<font color='#C0C0C0' size=2'>Copyright © 2024—∞ Athit Kao, Terms and Conditions<img src='./usct_s3e1_files/img/link_external_c0c0c0.png' style='display: inline-block; margin: 0; margin-bottom: -1px; height: 10px;'/></img></font>](http://www.athitkao.com/tos.html)"
+format:
+  revealjs:
+    theme: solarized
+    background-image: "./usct_s3e1_files/img/madameberry_pub_domain_backgrounds/fragile-soft-machine_invert.jpg"
+    transition: none
+    slide-number: c/t
+    logo: ./usct_s3e1_files/img/usct.png
+editor: visual
+---
+
+# Introduction {visibility="hidden"}
+
+## Goals
+
+- High-level survey of data science topics
+- Ensure a good start in your journey
+- Answering your questions
+
+## Goals {visibility="uncounted"}
+
+- High-level survey of data science topics
+- Ensure a good start in your journey
+- Answering your questions
+
+</br>
+</br>
+<h2>Prerequisites</h2>
+
+- No programming or R experience necessary
+- Familiarity with spreadsheet software (e.g., Excel)
+- Interest in automating decision-making processes
+
+## <code><font color='#586E75'>whoami</font></code>
+
+:::: {.columns}
+
+::: {.column width="40%"}
+![](./usct_s3e1_files/img/is_this_a_date.jpg)
+:::
+
+::: {.column width="60%"}
+- "Atet"
+- R enthusiast
+- R&D ► Production
+  - Science (Bioinformatics)
+  - Engineering (Data Science)
+  - Business (Lead Investigator)
+
+:::
+
+::::
+
+## Agenda
+
+- **S3E1**: Introduction to leveraging machine learning
+  - Relevant background
+  - Hands-on experience
+  - 30,000 ft. view of a project
+<font color='#C0C0C0'>
+
+- **S3E2**: How to communicate your findings to stakeholders
+- **S3E3**: Collaborating on and scaling your efforts
+- **Extracurricular**: Handling data
+
+</font>
+  
+# Relevant Background
+
+## Definitions: *What is data science?*
+
+![](./usct_s3e1_files/img/data_science_1.png)
+
+## Definitions: *What is data science?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_science_2.png)
+
+## Definitions: *What is data science?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_science_3.png)
+
+## Definitions: *What is data science?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_science_4.png)
+
+## Definitions: *What is data science?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_science_5.png)
+
+## Definitions: *What is a data scientist?*
+
+![](./usct_s3e1_files/img/data_scientist_1.png)
+
+## Definitions: *What is a data scientist?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_scientist_2.png)
+
+## Definitions: *What is a data scientist?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_scientist_3.png)
+
+## Definitions: *What is a data scientist?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_scientist_4.png)
+
+## Definitions: *What is a data scientist?* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/data_scientist_5.png)
+
+## What is Machine Learning?
+
+## What is Machine Learning? *Linear Regression*
+
+## What is Machine Learning? *Random Forest*
+
+## Day in the Life of a Data Scientist
+
+## Day in the Life: *Tools*
+
+## Day in the Life: *Exploratory Data Analysis*
+
+## Evolution of Tools
+
+## Evolution of Roles
+
+# Hands-On Experience
+
+## Web-based Integrated Development Environment
+
+## COPY ME
+
+## Retrospective
+
+# 30,000 ft. View of a Project
+
+## Model Building
+
+## Data Preparation
+
+## Machine Learning Operations (MLOps)
+
+## Ethics
+
+## Fitting
+
+## Statistics
+
+# Thank You!
+
+Questions?
+
+</br>
+</br>
+Coming Soon:
+
+- (<code><font color='#586E75'>3/19/2024</font></code>) **S3E2**: Communicating to stakeholders
+- (<code><font color='#586E75'>4/??/2024</font></code>) **S3E3**: Collaborating and scaling efforts
