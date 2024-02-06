@@ -1,8 +1,8 @@
 ---
 title: "Data Science"
-subtitle: "<font size='7'>Season 3, Episode 1</font>"
+subtitle: "<font size='7'>Season 3, Episode 1</font></br><font size='5'>February 6, 2024</font>"
 author: "<font size='6'>Athit Kao, PhD</font>"
-institute: "<font size='4'>Raytheon | An RTX Business</font></br></br><font size='2'><em>DISCLAIMER: Opinions expressed within this presentation are solely the author's and do not reflect the opinions and beliefs of RTX or its affiliates.</em></font>"
+institute: "<font size='4'>Raytheon | An RTX Business</font></br><font size='2'><em>DISCLAIMER: Opinions expressed within this presentation are solely the author's and do not reflect the opinions and beliefs of RTX or its affiliates.</em></font>"
 footer: "[<font color='#C0C0C0' size=2'>Copyright © 2024—∞ Athit Kao, Terms and Conditions<img src='./usct_s3e1_files/img/link_external_c0c0c0.png' style='display: inline-block; margin: 0; margin-bottom: -1px; height: 10px;'/></img></font>](http://www.athitkao.com/tos.html)"
 format:
   revealjs:
@@ -11,6 +11,9 @@ format:
     transition: none
     slide-number: c/t
     logo: ./usct_s3e1_files/img/usct.png
+include-in-header:
+  text: |
+    <link rel = "shortcut icon" type="image/png" href = "./usct_s3e1_files/img/usct.png" />
 editor: visual
 ---
 
@@ -328,17 +331,189 @@ editor: visual
 
 # Hands-On Experience
 
-## Web-based Integrated Development Environment
+## Web-based R Environment
 
-## COPY ME
+:::: {.columns}
+
+::: {.column width="60%"}
+![](./usct_s3e1_files/img/web_r_1.gif)
+:::
+
+::: {.column width="40%"}
+
+<font size=6'>
+
+- <a href="http://r.morgbob.com" target="_blank"><code>http://r.morgbob.com</code><img src='./usct_s3e1_files/img/link_external_4758ab.png' style='display: inline-block; margin: 0; margin-bottom: -2px; height: 22px;'/></img></a>
+</br></br>
+- **script.R** (left side)
+  - Multi-line code blocks
+- **R Console** (right side)
+  - Line-by-line commands
+</br></br>
+- Copy and paste enabled
+
+</font>
+
+:::
+
+::::
+
+## Follow Me <code><font color='#586E75' size='24'>(1/5)</font></code>: *Load Data*
+
+:::: {.columns}
+::: {.column width="60%"}
+![](./usct_s3e1_files/img/web_r_2.gif)
+:::
+::: {.column width="40%"}
+<font size=8'>
+![](./usct_s3e1_files/img/web_r_2b.png)
+```r
+truth_data = read.csv( # Read turns.csv directly over the internet from GitHub
+   "https://raw.githubusercontent.com/atet/ml_maneuver/main/dat/turns.csv")
+str(truth_data) # Examine structure of the data
+print("1. Data loaded.")
+```
+</font>
+:::
+::::
+
+## Follow Me <code><font color='#586E75' size='24'>(2/5)</font></code>: *Prepare Data*{visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="60%"}
+![](./usct_s3e1_files/img/web_r_3.gif)
+:::
+::: {.column width="40%"}
+<font size=8'>
+![](./usct_s3e1_files/img/web_r_3b.png)
+```r
+# Convert numeric labels to factor data class
+truth_data$label = as.factor(truth_data$label)
+# Split data to train and test sets
+train = truth_data[truth_data$split == "train",]
+test = truth_data[truth_data$split == "test",]
+print("2. Data prepped.")
+```
+</font>
+:::
+::::
+
+## Follow Me <code><font color='#586E75' size='24'>(3/5)</font></code>: *Train Model*{visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="60%"}
+![](./usct_s3e1_files/img/web_r_4.gif)
+:::
+::: {.column width="40%"}
+<font size=8'>
+![](./usct_s3e1_files/img/web_r_4b.png)
+```r
+library(randomForest) # Load Random Forest package
+rf_model = randomForest(
+   label ~ .,
+   data = train[,-c(2,3,14)]
+)
+print("3. Training complete.")
+```
+</font>
+:::
+::::
+
+## Follow Me <code><font color='#586E75' size='24'>(4/5)</font></code>: *Test on Hold-Out*{visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="60%"}
+![](./usct_s3e1_files/img/web_r_5.gif)
+:::
+::: {.column width="40%"}
+<font size=8'>
+![](./usct_s3e1_files/img/web_r_5b.png)
+```r
+# Use trained Random Forest model on hold-out test set
+prediction = predict(rf_model, 
+   newdata = test[,-c(1,2,3,14)])
+print("4. Testing complete.")
+```
+</font>
+:::
+::::
+
+## Follow Me <code><font color='#586E75' size='24'>(5/5)</font></code>: *Evaluate Performance*{visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="60%"}
+![](./usct_s3e1_files/img/web_r_6.gif)
+:::
+::: {.column width="40%"}
+<font size=8'>
+![](./usct_s3e1_files/img/web_r_6b.png)
+```r
+# Confusion matrix shows if model is mispredicting classes
+confusion_matrix = table(unlist(test[,1]), prediction)
+print("5. Evaluating performance:")
+print(confusion_matrix)
+```
+</font>
+:::
+::::
+
+##  
+
+<center>
+<h1>**Congratulations!!!**</h1>
+<img src="./usct_s3e1_files/img/congratulations.gif" width="55%" />
+</br>You've built your first machine-learned model from scratch!
+</center>
 
 ## Retrospective
 
+![](./usct_s3e1_files/img/retrospective_1.png)
+
+## Retrospective{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/retrospective_2.png)
+
+## Retrospective{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/retrospective_3.png)
+
+## Retrospective{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/retrospective_4.png)
+
+## Retrospective{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/retrospective_5.png)
+
 # 30,000 ft. View of a Project
 
-## Model Building
+## Data Science into Production
 
-## Data Preparation
+![](./usct_s3e1_files/img/production_1.png)
+
+## Data Science into Production{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/production_2.png)
+
+## Data Science into Production{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/production_3.png)
+
+## Data Science into Production{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/production_4.png)
+
+## Data Science into Production{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/production_5.png)
+
+## Data Science into Production{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/production_6.png)
+
+## Data Science into Production{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/production_7.png)
 
 ## Machine Learning Operations (MLOps)
 
@@ -358,3 +533,47 @@ Coming Soon:
 
 - (<code><font color='#586E75'>3/19/2024</font></code>) **S3E2**: Communicating to stakeholders
 - (<code><font color='#586E75'>4/??/2024</font></code>) **S3E3**: Collaborating and scaling efforts
+
+# Supplemental
+
+## Supplemental: *Performance Metrics*
+
+![](./usct_s3e1_files/img/supplemental_performance_1.png)
+
+## Supplemental: *Performance Metrics*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_performance_2.png)
+
+## Supplemental: *Performance Metrics*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_performance_3.png)
+
+## Supplemental: *Performance Metrics*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_performance_4.png)
+
+## Supplemental: *Performance Metrics*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_performance_5.png)
+
+## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_confusion_matrix_1.png)
+
+## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_confusion_matrix_2.png)
+
+## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_confusion_matrix_3.png)
+
+## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_confusion_matrix_4.png)
+
+## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/supplemental_confusion_matrix_5.png)
+
+# The End
