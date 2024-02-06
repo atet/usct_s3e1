@@ -19,13 +19,13 @@ editor: visual
 ## Goals
 
 - High-level survey of data science topics
-- Ensure a good start in your journey
+- Ensure a good start on your journey
 - Answering your questions
 
 ## Goals {visibility="uncounted"}
 
 - High-level survey of data science topics
-- Ensure a good start in your journey
+- Ensure a good start on your journey
 - Answering your questions
 
 </br>
@@ -70,7 +70,7 @@ editor: visual
 
 </font>
   
-# Relevant Background
+# Background: *Data Science*
 
 ## Definitions: *What is data science?*
 
@@ -112,21 +112,223 @@ editor: visual
 
 ![](./usct_s3e1_files/img/data_scientist_5.png)
 
-## What is Machine Learning?
-
-## What is Machine Learning? *Linear Regression*
-
-## What is Machine Learning? *Random Forest*
-
 ## Day in the Life of a Data Scientist
+
+## Day in the Life of a Data Scientist{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/dil_1.png)
+
+## Day in the Life of a Data Scientist{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/dil_2.png)
+
+## Day in the Life of a Data Scientist{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/dil_3.png)
+
+## Day in the Life of a Data Scientist{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/dil_4.png)
+
+## Day in the Life of a Data Scientist{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/dil_5.png)
+
+## Day in the Life of a Data Scientist{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/dil_6.png)
 
 ## Day in the Life: *Tools*
 
+![](./usct_s3e1_files/img/tools_1.png)
+
+## Day in the Life: *Tools*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/tools_2.png)
+
 ## Day in the Life: *Exploratory Data Analysis*
+
+![](./usct_s3e1_files/img/eda_1.png)
+
+## Day in the Life: *Exploratory Data Analysis*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/eda_2.png)
+
+## Day in the Life: *Exploratory Data Analysis*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/eda_3.png)
+
+## Day in the Life: *Exploratory Data Analysis*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/eda_4.png)
 
 ## Evolution of Tools
 
+![](./usct_s3e1_files/img/evolution_of_tools_1.png)
+
+## Evolution of Tools{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/evolution_of_tools_2.png)
+
 ## Evolution of Roles
+
+![](./usct_s3e1_files/img/evolution_of_roles_1.png)
+
+## Evolution of Roles{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/evolution_of_roles_2.png)
+
+## Evolution of Roles{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/evolution_of_roles_3.png)
+
+## Evolution of Roles{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/evolution_of_roles_4.png)
+
+## Evolution of Roles{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/evolution_of_roles_5.png)
+
+# Background: *Machine Learning*
+
+## What is Machine Learning?
+
+ 
+ 
+<center>An algorithm that</br>consumes data and automagically<br>classifies it</center>
+
+## What is Machine Learning? *Linear Regression*
+
+![](./usct_s3e1_files/img/linear_regression_1.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_2.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_3.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_4.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_5.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_6.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_7.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_8.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_9.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_10.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_11.png)
+
+## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_12.png)
+
+## What is a Model?
+
+ 
+ 
+<center><b>Algorithms</b> are procedures taken to complete a task</center>
+ 
+<center><em>The linear regression algorithm calculated the best linear model</em></center></br>
+ 
+<center><b>Models</b> are created by algorithms and define relationships</center>
+ 
+<center><em>Relationship between size and weight is described by the model</em></center>
+
+## What is Machine Learning? *Linear Regression Recap*
+
+![](./usct_s3e1_files/img/linear_regression_13.png)
+
+## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_14.png)
+
+## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_15.png)
+
+## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_16.png)
+
+## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/linear_regression_17.png)
+
+## What is Machine Learning? *Random Forest*
+
+![](./usct_s3e1_files/img/random_forest_1.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_2.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_3.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_4.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_5.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_6.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_7.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_8.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_9.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_10.png)
+
+## What is Machine Learning? *Random Forest* {visibility="uncounted"}
+
+![](./usct_s3e1_files/img/random_forest_11.png)
+
+## What is Machine Learning? *Summary*
+
+![](./usct_s3e1_files/img/ml_summary_1.png)
+
+## What is Machine Learning? *Summary*{visibility="uncounted"}
+
+![](./usct_s3e1_files/img/ml_summary_2.png)
 
 # Hands-On Experience
 
