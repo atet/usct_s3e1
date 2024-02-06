@@ -242,10 +242,6 @@ editor: visual
 
 ![](./usct_s3e1_files/img/linear_regression_11.png)
 
-## What is Machine Learning? *Linear Regression* {visibility="uncounted"}
-
-![](./usct_s3e1_files/img/linear_regression_12.png)
-
 ## What is a Model?
 
  
@@ -260,6 +256,10 @@ editor: visual
 
 ## What is Machine Learning? *Linear Regression Recap*
 
+![](./usct_s3e1_files/img/linear_regression_12.png)
+
+## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+
 ![](./usct_s3e1_files/img/linear_regression_13.png)
 
 ## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
@@ -273,10 +273,6 @@ editor: visual
 ## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/linear_regression_16.png)
-
-## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
-
-![](./usct_s3e1_files/img/linear_regression_17.png)
 
 ## What is Machine Learning? *Random Forest*
 
