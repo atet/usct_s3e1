@@ -197,9 +197,10 @@ editor: visual
 
 ## What is Machine Learning?
 
- 
- 
-<center>An algorithm that</br>consumes data and automagically<br>classifies it</center>
+</br>
+</br>
+</br>
+<center><b>An algorithm that</br>consumes data and automagically<br>classifies it</b></center>
 
 ## What is Machine Learning? *Linear Regression*
 
@@ -445,7 +446,7 @@ print("4. Testing complete.")
 ![](./usct_s3e1_files/img/web_r_6.gif)
 :::
 ::: {.column width="40%"}
-<font size=8'>
+<font size='8'>
 ![](./usct_s3e1_files/img/web_r_6b.png)
 ```r
 # Confusion matrix shows if model is mispredicting classes
@@ -517,11 +518,53 @@ print(confusion_matrix)
 
 ## Machine Learning Operations (MLOps)
 
+:::: {.columns}
+::: {.column width="35%"}
+![](./usct_s3e1_files/img/mlops_1.png)
+:::
+::: {.column width="65%"}
+![](./usct_s3e1_files/img/mlops_2.png)
+
+<font size='6'>
+
+- Data will change over time
+- This will affect your models
+- Mitigate with best practices
+
+</font>
+:::
+::::
+
 ## Ethics
+
+:::: {.columns}
+::: {.column width="65%"}
+
+<font size='6'>
+</br>
+*Ask yourself:*
+</br>
+
+- **Bias** - Are my data sources representative?
+- **Transparency** - Can results be explained?
+- **Privacy** - Could source data be leaked?
+- **Liability** - Who is responsible for issues?
+- **Human Agency** - How would it affect society?
+
+</font>
+
+:::
+::: {.column width="35%"}
+![](./usct_s3e1_files/img/ethics_1.png)
+
+:::
+::::
 
 ## Fitting
 
-## Statistics
+![](./usct_s3e1_files/img/fitting_1.png)
+
+<center>This is related to the performance of your models</center>
 
 # Thank You!
 
@@ -575,5 +618,40 @@ Coming Soon:
 ## Supplemental: *Confusion Matrix*{visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_confusion_matrix_5.png)
+
+## Supplemental: *Statistics*
+
+<center>
+</br>
+<h1>p-value</h1>
+
+**Indicated likelihood that an outcome (e.g., a prediction) is the result of chance**
+</center>
+
+## Supplemental: *Statistics*{visibility="uncounted"}
+
+<center>
+</br>
+<h1>p-value</h1>
+
+**Indicated likelihood that an outcome (e.g., a prediction) is the result of chance**
+</br>
+</br>
+<font size='6'>A p-value of 0.05 (5%) means that you accept an outcome of being wrong</br>1 out of 20 times (e.g., seemingly "high" performing model that mispredicts) 
+</center></font>
+
+## Supplemental: *Statistics*{visibility="uncounted"}
+
+<center>
+</br>
+<h1>p-value</h1>
+
+**Indicated likelihood that an outcome (e.g., a prediction) is the result of chance**
+</br>
+</br>
+<font size='6'>A p-value of 0.05 (5%) means that you accept an outcome of being wrong</br>1 out of 20 times (e.g., seemingly "high" performing model that mispredicts)
+</br></br>
+What does this mean if you're validating millions of models?</br><font size='5'>(Answer: Use **multiple testing correction** on your p-value threshold)</font></font>
+</center>
 
 # The End

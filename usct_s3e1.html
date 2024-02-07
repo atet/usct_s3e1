@@ -598,9 +598,9 @@ Prerequisites
 </section>
 <section id="what-is-machine-learning" class="slide level2">
 <h2>What is Machine Learning?</h2>
-   
+<br> <br> <br>
 <center>
-An algorithm that<br>consumes data and automagically<br>classifies it
+<b>An algorithm that<br>consumes data and automagically<br>classifies it</b>
 </center>
 </section>
 <section id="what-is-machine-learning-linear-regression" class="slide level2">
@@ -836,12 +836,12 @@ An algorithm that<br>consumes data and automagically<br>classifies it
 <div class="column" style="width:60%;">
 <p><img data-src="./usct_s3e1_files/img/web_r_6.gif"></p>
 </div><div class="column" style="width:40%;">
-<p><font size="8'"> <img data-src="./usct_s3e1_files/img/web_r_6b.png"></font></p><font size="8'">
+<p><font size="8"> <img data-src="./usct_s3e1_files/img/web_r_6b.png"></font></p><font size="8">
 <div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Confusion matrix shows if model is mispredicting classes</span></span>
 <span id="cb5-2"><a href="#cb5-2"></a>confusion_matrix <span class="ot">=</span> <span class="fu">table</span>(<span class="fu">unlist</span>(test[,<span class="dv">1</span>]), prediction)</span>
 <span id="cb5-3"><a href="#cb5-3"></a><span class="fu">print</span>(<span class="st">"5. Evaluating performance:"</span>)</span>
 <span id="cb5-4"><a href="#cb5-4"></a><span class="fu">print</span>(confusion_matrix)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</font><p><font size="8'"></font></p>
+</font><p><font size="8"></font></p>
 </div>
 </div>
 </section>
@@ -909,15 +909,45 @@ An algorithm that<br>consumes data and automagically<br>classifies it
 <img data-src="./usct_s3e1_files/img/production_7.png" class="r-stretch"></section>
 <section id="machine-learning-operations-mlops" class="slide level2">
 <h2>Machine Learning Operations (MLOps)</h2>
+<div class="columns">
+<div class="column" style="width:35%;">
+<p><img data-src="./usct_s3e1_files/img/mlops_1.png"></p>
+</div><div class="column" style="width:65%;">
+<p><img data-src="./usct_s3e1_files/img/mlops_2.png"></p>
+<p><font size="6"></font></p><font size="6">
+<ul>
+<li>Data will change over time</li>
+<li>This will affect your models</li>
+<li>Mitigate with best practices</li>
+</ul>
+</font><p><font size="6"></font></p>
+</div>
+</div>
 </section>
 <section id="ethics" class="slide level2">
 <h2>Ethics</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p><font size="6"> <br> <em>Ask yourself:</em> <br></font></p><font size="6">
+<ul>
+<li><strong>Bias</strong> - Are my data sources representative?</li>
+<li><strong>Transparency</strong> - Can results be explained?</li>
+<li><strong>Privacy</strong> - Could source data be leaked?</li>
+<li><strong>Liability</strong> - Who is responsible for issues?</li>
+<li><strong>Human Agency</strong> - How would it affect society?</li>
+</ul>
+</font><p><font size="6"></font></p>
+</div><div class="column" style="width:35%;">
+<p><img data-src="./usct_s3e1_files/img/ethics_1.png"></p>
+</div>
+</div>
 </section>
 <section id="fitting" class="slide level2">
 <h2>Fitting</h2>
-</section>
-<section id="statistics" class="slide level2">
-<h2>Statistics</h2>
+
+<img data-src="./usct_s3e1_files/img/fitting_1.png" class="r-stretch"><center>
+This is related to the performance of your models
+</center>
 </section></section>
 <section id="thank-you" class="title-slide slide level1 center">
 <h1>Thank You!</h1>
@@ -973,7 +1003,38 @@ An algorithm that<br>consumes data and automagically<br>classifies it
 <section id="supplemental-confusion-matrix-4" class="slide level2" data-visibility="uncounted">
 <h2>Supplemental: <em>Confusion Matrix</em></h2>
 
-<img data-src="./usct_s3e1_files/img/supplemental_confusion_matrix_5.png" class="r-stretch"></section></section>
+<img data-src="./usct_s3e1_files/img/supplemental_confusion_matrix_5.png" class="r-stretch"></section>
+<section id="supplemental-statistics" class="slide level2">
+<h2>Supplemental: <em>Statistics</em></h2>
+<center>
+<br>
+<h1>
+p-value
+</h1>
+<strong>Indicated likelihood that an outcome (e.g., a prediction) is the result of chance</strong>
+</center>
+</section>
+<section id="supplemental-statistics-1" class="slide level2" data-visibility="uncounted">
+<h2>Supplemental: <em>Statistics</em></h2>
+<center>
+<br>
+<h1>
+p-value
+</h1>
+<strong>Indicated likelihood that an outcome (e.g., a prediction) is the result of chance</strong> <br> <br> <font size="6">A p-value of 0.05 (5%) means that you accept an outcome of being wrong<br>1 out of 20 times (e.g., seemingly “high” performing model that mispredicts)
+</font></center><font size="6">
+</font><p><font size="6"></font></p>
+</section>
+<section id="supplemental-statistics-2" class="slide level2" data-visibility="uncounted">
+<h2>Supplemental: <em>Statistics</em></h2>
+<center>
+<br>
+<h1>
+p-value
+</h1>
+<strong>Indicated likelihood that an outcome (e.g., a prediction) is the result of chance</strong> <br> <br> <font size="6">A p-value of 0.05 (5%) means that you accept an outcome of being wrong<br>1 out of 20 times (e.g., seemingly “high” performing model that mispredicts) <br><br> What does this mean if you’re validating millions of models?<br><font size="5">(Answer: Use <strong>multiple testing correction</strong> on your p-value threshold)</font></font>
+</center>
+</section></section>
 <section id="the-end" class="title-slide slide level1 center">
 <h1>The End</h1>
 <p><img src="./usct_s3e1_files/img/usct.png" class="slide-logo"></p>
