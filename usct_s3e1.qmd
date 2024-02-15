@@ -2,7 +2,7 @@
 title: "Data Science"
 subtitle: "<font size='7'>Season 3, Episode 1</font></br><font size='5'>February 6, 2024</font>"
 author: "<font size='6'>Athit Kao, PhD</font>"
-institute: "<font size='4'>Raytheon | An RTX Business</font></br><font size='2'><em>DISCLAIMER: Opinions expressed within this presentation are solely the author's and do not reflect the opinions and beliefs of RTX or its affiliates.</em></font>"
+institute: "<font size='4'>Raytheon | An RTX Business</font></br><font size='2'><em>DISCLAIMER: Opinions expressed within this presentation are solely the author's and do not reflect the opinions and beliefs of RTX or its affiliates.</em></font></br><code><font size='4' color='#FF0000'>↙ Click ≡ for menu or use arrow keys (← & →) to navigate between slides</font></code>"
 footer: "[<font color='#C0C0C0' size=2'>Copyright © 2024—∞ Athit Kao, Terms and Conditions<img src='./usct_s3e1_files/img/link_external_c0c0c0.png' style='display: inline-block; margin: 0; margin-bottom: -1px; height: 10px;'/></img></font>](http://www.athitkao.com/tos.html)"
 format:
   revealjs:
@@ -21,58 +21,53 @@ editor: visual
 
 ## Goals
 
-- High-level survey of data science topics
-- Ensure a good start on your journey
-- Answering your questions
+-   High-level survey of data science topics
+-   Ensure a good start on your journey
+-   Answering your questions
 
 ## Goals {visibility="uncounted"}
 
-- High-level survey of data science topics
-- Ensure a good start on your journey
-- Answering your questions
+-   High-level survey of data science topics
+-   Ensure a good start on your journey
+-   Answering your questions
 
 </br>
-</br>
+
 <h2>Prerequisites</h2>
 
-- No programming or R experience necessary
-- Familiarity with spreadsheet software (e.g., Excel)
-- Interest in automating decision-making processes
+-   No programming or R experience necessary
+-   Familiarity with spreadsheet software (e.g., Excel)
+-   Interest in automating decision-making processes
 
 ## <code><font color='#586E75'>whoami</font></code>
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="40%"}
 ![](./usct_s3e1_files/img/is_this_a_date.jpg)
 :::
 
 ::: {.column width="60%"}
-- "Atet"
-- R enthusiast
-- R&D ► Production
-  - Science (Bioinformatics)
-  - Engineering (Data Science)
-  - Business (Lead Investigator)
-
+-   "Atet"
+-   R enthusiast
+-   R&D ► Production
+    -   Science (Bioinformatics)
+    -   Engineering (Data Science)
+    -   Business (Lead Investigator)
 :::
-
-::::
+:::
 
 ## Agenda
 
-- **S3E1**: Introduction to leveraging machine learning
-  - Relevant background
-  - Hands-on experience
-  - 30,000 ft. view of a project
-<font color='#C0C0C0'>
-
-- **S3E2**: How to communicate your findings to stakeholders
-- **S3E3**: Collaborating on and scaling your efforts
-- **Extracurricular**: Handling data
+-   **S3E1**: Introduction to leveraging machine learning
+    -   Relevant background
+    -   Hands-on experience
+    -   30,000 ft. view of a project <font color='#C0C0C0'>
+-   **S3E2**: How to communicate your findings to stakeholders
+-   **S3E3**: Collaborating on and scaling your efforts
+-   **Extracurricular**: Handling data
 
 </font>
-  
+
 # Background: *Data Science*
 
 ## Definitions: *What is data science?*
@@ -117,27 +112,27 @@ editor: visual
 
 ## Day in the Life of a Data Scientist
 
-## Day in the Life of a Data Scientist{visibility="uncounted"}
+## Day in the Life of a Data Scientist {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/dil_1.png)
 
-## Day in the Life of a Data Scientist{visibility="uncounted"}
+## Day in the Life of a Data Scientist {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/dil_2.png)
 
-## Day in the Life of a Data Scientist{visibility="uncounted"}
+## Day in the Life of a Data Scientist {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/dil_3.png)
 
-## Day in the Life of a Data Scientist{visibility="uncounted"}
+## Day in the Life of a Data Scientist {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/dil_4.png)
 
-## Day in the Life of a Data Scientist{visibility="uncounted"}
+## Day in the Life of a Data Scientist {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/dil_5.png)
 
-## Day in the Life of a Data Scientist{visibility="uncounted"}
+## Day in the Life of a Data Scientist {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/dil_6.png)
 
@@ -145,7 +140,7 @@ editor: visual
 
 ![](./usct_s3e1_files/img/tools_1.png)
 
-## Day in the Life: *Tools*{visibility="uncounted"}
+## Day in the Life: *Tools* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/tools_2.png)
 
@@ -153,15 +148,15 @@ editor: visual
 
 ![](./usct_s3e1_files/img/eda_1.png)
 
-## Day in the Life: *Exploratory Data Analysis*{visibility="uncounted"}
+## Day in the Life: *Exploratory Data Analysis* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/eda_2.png)
 
-## Day in the Life: *Exploratory Data Analysis*{visibility="uncounted"}
+## Day in the Life: *Exploratory Data Analysis* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/eda_3.png)
 
-## Day in the Life: *Exploratory Data Analysis*{visibility="uncounted"}
+## Day in the Life: *Exploratory Data Analysis* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/eda_4.png)
 
@@ -169,7 +164,7 @@ editor: visual
 
 ![](./usct_s3e1_files/img/evolution_of_tools_1.png)
 
-## Evolution of Tools{visibility="uncounted"}
+## Evolution of Tools {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/evolution_of_tools_2.png)
 
@@ -177,19 +172,19 @@ editor: visual
 
 ![](./usct_s3e1_files/img/evolution_of_roles_1.png)
 
-## Evolution of Roles{visibility="uncounted"}
+## Evolution of Roles {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/evolution_of_roles_2.png)
 
-## Evolution of Roles{visibility="uncounted"}
+## Evolution of Roles {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/evolution_of_roles_3.png)
 
-## Evolution of Roles{visibility="uncounted"}
+## Evolution of Roles {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/evolution_of_roles_4.png)
 
-## Evolution of Roles{visibility="uncounted"}
+## Evolution of Roles {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/evolution_of_roles_5.png)
 
@@ -197,9 +192,8 @@ editor: visual
 
 ## What is Machine Learning?
 
-</br>
-</br>
-</br>
+</br> </br> </br>
+
 <center><b>An algorithm that</br>consumes data and automagically<br>classifies it</b></center>
 
 ## What is Machine Learning? *Linear Regression*
@@ -247,34 +241,31 @@ editor: visual
 ![](./usct_s3e1_files/img/linear_regression_11.png)
 
 ## What is a Model?
-
- 
- 
+</br>
+</br>
 <center><b>Algorithms</b> are procedures taken to complete a task</center>
- 
-<center><em>The linear regression algorithm calculated the best linear model</em></center></br>
- 
+<center><em>The linear regression algorithm calculated the best linear model</em></center>
+</br>
 <center><b>Models</b> are created by algorithms and define relationships</center>
- 
 <center><em>Relationship between size and weight is described by the model</em></center>
 
 ## What is Machine Learning? *Linear Regression Recap*
 
 ![](./usct_s3e1_files/img/linear_regression_12.png)
 
-## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+## What is Machine Learning? *Linear Regression Recap* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/linear_regression_13.png)
 
-## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+## What is Machine Learning? *Linear Regression Recap* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/linear_regression_14.png)
 
-## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+## What is Machine Learning? *Linear Regression Recap* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/linear_regression_15.png)
 
-## What is Machine Learning? *Linear Regression Recap*{visibility="uncounted"}
+## What is Machine Learning? *Linear Regression Recap* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/linear_regression_16.png)
 
@@ -326,7 +317,7 @@ editor: visual
 
 ![](./usct_s3e1_files/img/ml_summary_1.png)
 
-## What is Machine Learning? *Summary*{visibility="uncounted"}
+## What is Machine Learning? *Summary* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/ml_summary_2.png)
 
@@ -334,60 +325,57 @@ editor: visual
 
 ## Web-based R Environment
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="60%"}
 ![](./usct_s3e1_files/img/web_r_1.gif)
 :::
 
 ::: {.column width="40%"}
-
 <font size=6'>
 
-- <a href="http://r.morgbob.com" target="_blank"><code>http://r.morgbob.com</code><img src='./usct_s3e1_files/img/link_external_4758ab.png' style='display: inline-block; margin: 0; margin-bottom: -2px; height: 22px;'/></img></a>
-</br></br>
-- **script.R** (left side)
-  - Multi-line code blocks
-- **R Console** (right side)
-  - Line-by-line commands
-</br></br>
-- Copy and paste enabled
+-   <a href="http://r.morgbob.com" target="_blank"><code>http://r.morgbob.com</code><img src="./usct_s3e1_files/img/link_external_4758ab.png" style="display: inline-block; margin: 0; margin-bottom: -2px; height: 22px;"/></img></a> </br></br>
+-   **script.R** (left side)
+    -   Multi-line code blocks
+-   **R Console** (right side)
+    -   Line-by-line commands </br></br>
+-   Copy and paste enabled
 
 </font>
-
 :::
-
-::::
+:::
 
 ## Follow Me <code><font color='#586E75' size='24'>(1/5)</font></code>: *Load Data*
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
 ![](./usct_s3e1_files/img/web_r_2.gif)
 :::
+
 ::: {.column width="40%"}
-<font size=8'>
-![](./usct_s3e1_files/img/web_r_2b.png)
-```r
+<font size=8'> ![](./usct_s3e1_files/img/web_r_2b.png)
+
+``` r
 truth_data = read.csv( # Read turns.csv directly over the internet from GitHub
    "https://raw.githubusercontent.com/atet/ml_maneuver/main/dat/turns.csv")
 str(truth_data) # Examine structure of the data
 print("1. Data loaded.")
 ```
+
 </font>
 :::
-::::
+:::
 
-## Follow Me <code><font color='#586E75' size='24'>(2/5)</font></code>: *Prepare Data*{visibility="uncounted"}
+## Follow Me <code><font color='#586E75' size='24'>(2/5)</font></code>: *Prepare Data* {visibility="uncounted"}
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
 ![](./usct_s3e1_files/img/web_r_3.gif)
 :::
+
 ::: {.column width="40%"}
-<font size=8'>
-![](./usct_s3e1_files/img/web_r_3b.png)
-```r
+<font size=8'> ![](./usct_s3e1_files/img/web_r_3b.png)
+
+``` r
 # Convert numeric labels to factor data class
 truth_data$label = as.factor(truth_data$label)
 # Split data to train and test sets
@@ -395,20 +383,22 @@ train = truth_data[truth_data$split == "train",]
 test = truth_data[truth_data$split == "test",]
 print("2. Data prepped.")
 ```
+
 </font>
 :::
-::::
+:::
 
-## Follow Me <code><font color='#586E75' size='24'>(3/5)</font></code>: *Train Model*{visibility="uncounted"}
+## Follow Me <code><font color='#586E75' size='24'>(3/5)</font></code>: *Train Model* {visibility="uncounted"}
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
 ![](./usct_s3e1_files/img/web_r_4.gif)
 :::
+
 ::: {.column width="40%"}
-<font size=8'>
-![](./usct_s3e1_files/img/web_r_4b.png)
-```r
+<font size=8'> ![](./usct_s3e1_files/img/web_r_4b.png)
+
+``` r
 library(randomForest) # Load Random Forest package
 rf_model = randomForest(
    label ~ .,
@@ -416,73 +406,80 @@ rf_model = randomForest(
 )
 print("3. Training complete.")
 ```
+
 </font>
 :::
-::::
+:::
 
-## Follow Me <code><font color='#586E75' size='24'>(4/5)</font></code>: *Test on Hold-Out*{visibility="uncounted"}
+## Follow Me <code><font color='#586E75' size='24'>(4/5)</font></code>: *Test on Hold-Out* {visibility="uncounted"}
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
 ![](./usct_s3e1_files/img/web_r_5.gif)
 :::
+
 ::: {.column width="40%"}
-<font size=8'>
-![](./usct_s3e1_files/img/web_r_5b.png)
-```r
+<font size=8'> ![](./usct_s3e1_files/img/web_r_5b.png)
+
+``` r
 # Use trained Random Forest model on hold-out test set
 prediction = predict(rf_model, 
    newdata = test[,-c(1,2,3,14)])
 print("4. Testing complete.")
 ```
+
 </font>
 :::
-::::
+:::
 
-## Follow Me <code><font color='#586E75' size='24'>(5/5)</font></code>: *Evaluate Performance*{visibility="uncounted"}
+## Follow Me <code><font color='#586E75' size='24'>(5/5)</font></code>: *Evaluate Performance* {visibility="uncounted"}
 
-:::: {.columns}
+::: columns
 ::: {.column width="60%"}
 ![](./usct_s3e1_files/img/web_r_6.gif)
 :::
+
 ::: {.column width="40%"}
-<font size='8'>
-![](./usct_s3e1_files/img/web_r_6b.png)
-```r
+<font size='8'> ![](./usct_s3e1_files/img/web_r_6b.png)
+
+``` r
 # Confusion matrix shows if model is mispredicting classes
 confusion_matrix = table(unlist(test[,1]), prediction)
 print("5. Evaluating performance:")
 print(confusion_matrix)
 ```
+
 </font>
 :::
-::::
+:::
 
 ##  
 
 <center>
+
 <h1>**Congratulations!!!**</h1>
-<img src="./usct_s3e1_files/img/congratulations.gif" width="55%" />
-</br>You've built your first machine-learned model from scratch!
+
+<img src="./usct_s3e1_files/img/congratulations.gif" width="55%"/> </br>You've built your first machine-learned model from scratch!
+
 </center>
 
 ## Retrospective
 
 ![](./usct_s3e1_files/img/retrospective_1.png)
 
-## Retrospective{visibility="uncounted"}
+## Retrospective {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/retrospective_2.png)
 
-## Retrospective{visibility="uncounted"}
+## Retrospective {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/retrospective_3.png)
 
-## Retrospective{visibility="uncounted"}
+## Retrospective {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/retrospective_4.png)
 
-## Retrospective{visibility="uncounted"}
+## Retrospective {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/retrospective_5.png)
 
@@ -492,73 +489,69 @@ print(confusion_matrix)
 
 ![](./usct_s3e1_files/img/production_1.png)
 
-## Data Science into Production{visibility="uncounted"}
+## Data Science into Production {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/production_2.png)
 
-## Data Science into Production{visibility="uncounted"}
+## Data Science into Production {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/production_3.png)
 
-## Data Science into Production{visibility="uncounted"}
+## Data Science into Production {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/production_4.png)
 
-## Data Science into Production{visibility="uncounted"}
+## Data Science into Production {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/production_5.png)
 
-## Data Science into Production{visibility="uncounted"}
+## Data Science into Production {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/production_6.png)
 
-## Data Science into Production{visibility="uncounted"}
+## Data Science into Production {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/production_7.png)
 
 ## Machine Learning Operations (MLOps)
 
-:::: {.columns}
+::: columns
 ::: {.column width="35%"}
 ![](./usct_s3e1_files/img/mlops_1.png)
 :::
+
 ::: {.column width="65%"}
 ![](./usct_s3e1_files/img/mlops_2.png)
 
 <font size='6'>
 
-- Data will change over time
-- This will affect your models
-- Mitigate with best practices
+-   Data will change over time
+-   This will affect your models
+-   Mitigate with best practices
 
 </font>
 :::
-::::
+:::
 
 ## Ethics
 
-:::: {.columns}
+::: columns
 ::: {.column width="65%"}
+<font size='6'> </br> *Ask yourself:* </br>
 
-<font size='6'>
-</br>
-*Ask yourself:*
-</br>
-
-- **Bias** - Are my data sources representative?
-- **Transparency** - Can results be explained?
-- **Privacy** - Could source data be leaked?
-- **Liability** - Who is responsible for issues?
-- **Human Agency** - How would it affect society?
+-   **Bias** - Are my data sources representative?
+-   **Transparency** - Can results be explained?
+-   **Privacy** - Could source data be leaked?
+-   **Liability** - Who is responsible for issues?
+-   **Human Agency** - How would it affect society?
 
 </font>
-
 :::
+
 ::: {.column width="35%"}
 ![](./usct_s3e1_files/img/ethics_1.png)
-
 :::
-::::
+:::
 
 ## Fitting
 
@@ -570,12 +563,10 @@ print(confusion_matrix)
 
 Questions?
 
-</br>
-</br>
-Coming Soon:
+</br> </br> Coming Soon:
 
-- (<code><font color='#586E75'>3/19/2024</font></code>) **S3E2**: Communicating to stakeholders
-- (<code><font color='#586E75'>4/??/2024</font></code>) **S3E3**: Collaborating and scaling efforts
+-   (<code><font color='#586E75'>3/19/2024</font></code>) **S3E2**: Communicating to stakeholders
+-   (<code><font color='#586E75'>4/??/2024</font></code>) **S3E3**: Collaborating and scaling efforts
 
 # Supplemental
 
@@ -583,75 +574,78 @@ Coming Soon:
 
 ![](./usct_s3e1_files/img/supplemental_performance_1.png)
 
-## Supplemental: *Performance Metrics*{visibility="uncounted"}
+## Supplemental: *Performance Metrics* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_performance_2.png)
 
-## Supplemental: *Performance Metrics*{visibility="uncounted"}
+## Supplemental: *Performance Metrics* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_performance_3.png)
 
-## Supplemental: *Performance Metrics*{visibility="uncounted"}
+## Supplemental: *Performance Metrics* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_performance_4.png)
 
-## Supplemental: *Performance Metrics*{visibility="uncounted"}
+## Supplemental: *Performance Metrics* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_performance_5.png)
 
-## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+## Supplemental: *Confusion Matrix* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_confusion_matrix_1.png)
 
-## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+## Supplemental: *Confusion Matrix* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_confusion_matrix_2.png)
 
-## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+## Supplemental: *Confusion Matrix* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_confusion_matrix_3.png)
 
-## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+## Supplemental: *Confusion Matrix* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_confusion_matrix_4.png)
 
-## Supplemental: *Confusion Matrix*{visibility="uncounted"}
+## Supplemental: *Confusion Matrix* {visibility="uncounted"}
 
 ![](./usct_s3e1_files/img/supplemental_confusion_matrix_5.png)
 
 ## Supplemental: *Statistics*
 
 <center>
+
 </br>
+
 <h1>p-value</h1>
 
 **Indicated likelihood that an outcome (e.g., a prediction) is the result of chance**
+
 </center>
 
-## Supplemental: *Statistics*{visibility="uncounted"}
+## Supplemental: *Statistics* {visibility="uncounted"}
 
 <center>
+
 </br>
+
 <h1>p-value</h1>
 
-**Indicated likelihood that an outcome (e.g., a prediction) is the result of chance**
-</br>
-</br>
-<font size='6'>A p-value of 0.05 (5%) means that you accept an outcome of being wrong</br>1 out of 20 times (e.g., seemingly "high" performing model that mispredicts) 
-</center></font>
+**Indicated likelihood that an outcome (e.g., a prediction) is the result of chance** </br> </br> <font size='6'>A p-value of 0.05 (5%) means that you accept an outcome of being wrong</br>1 out of 20 times (e.g., seemingly "high" performing model that mispredicts)
 
-## Supplemental: *Statistics*{visibility="uncounted"}
+</center>
+
+</font>
+
+## Supplemental: *Statistics* {visibility="uncounted"}
 
 <center>
+
 </br>
+
 <h1>p-value</h1>
 
-**Indicated likelihood that an outcome (e.g., a prediction) is the result of chance**
-</br>
-</br>
-<font size='6'>A p-value of 0.05 (5%) means that you accept an outcome of being wrong</br>1 out of 20 times (e.g., seemingly "high" performing model that mispredicts)
-</br></br>
-What does this mean if you're validating millions of models?</br><font size='5'>(Answer: Use **multiple testing correction** on your p-value threshold)</font></font>
+**Indicated likelihood that an outcome (e.g., a prediction) is the result of chance** </br> </br> <font size='6'>A p-value of 0.05 (5%) means that you accept an outcome of being wrong</br>1 out of 20 times (e.g., seemingly "high" performing model that mispredicts) </br></br> What does this mean if you're validating millions of models?</br><font size='5'>(Answer: Use **multiple testing correction** on your p-value threshold)</font></font>
+
 </center>
 
 # The End
