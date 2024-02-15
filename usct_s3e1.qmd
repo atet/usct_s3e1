@@ -590,7 +590,7 @@ Questions?
 
 ![](./usct_s3e1_files/img/supplemental_performance_5.png)
 
-## Supplemental: *Confusion Matrix* {visibility="uncounted"}
+## Supplemental: *Confusion Matrix*
 
 ![](./usct_s3e1_files/img/supplemental_confusion_matrix_1.png)
 
