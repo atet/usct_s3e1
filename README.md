@@ -1,6 +1,6 @@
 # [atet](https://github.com/atet) / [**_usct_s3e1_**](https://github.com/atet/usct_s3e1/blob/main/README.md#atet--usct_s3e1)
 
-[![.img/logo_cite.png](.img/logo_usct_s3e1.png)](#nolink)
+[![.img/logo_usct_s3e1.png](.img/logo_usct_s3e1.png)](#nolink)
 
 # U.S. Cyber Team - Season 3, Episode 1
 
